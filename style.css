@@ -224,9 +224,11 @@ address {
 }
 
 .header__logo img {
-  height: 40px;
+  height: 44px;
   width: auto;
+  max-width: 200px;
   object-fit: contain;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 .header__toggle {
@@ -334,6 +336,13 @@ address {
   display: grid;
   gap: 2.5rem;
   padding-block: 3rem 4rem;
+}
+
+.hero__logo {
+  width: min(280px, 75vw);
+  height: auto;
+  margin-bottom: 1.5rem;
+  filter: drop-shadow(0 4px 24px rgba(232, 0, 29, 0.2));
 }
 
 .hero__badge {
@@ -1023,6 +1032,13 @@ address {
   padding-bottom: 2rem;
 }
 
+.footer__brand img {
+  height: 56px;
+  width: auto;
+  max-width: 220px;
+  object-fit: contain;
+}
+
 .footer__tagline {
   margin-top: 0.75rem;
   font-size: 0.85rem;
@@ -1175,6 +1191,11 @@ address {
 
   .header__links a {
     font-size: 0.85rem;
+  }
+
+  .header__logo img {
+    height: 50px;
+    max-width: 240px;
   }
 
   .hero__inner {
