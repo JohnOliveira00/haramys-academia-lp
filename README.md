@@ -6,7 +6,7 @@
 
 Uma landing page moderna, responsiva e de alta conversão desenvolvida para a **Haramys Academia**. O objetivo principal da página é atrair novos alunos, destacando a estrutura nova com equipamentos de última geração, modalidades inclusas (Musculação, Jiu-Jitsu, Muay Thai e Fit Dance) e a facilidade do uso de benefícios corporativos como Gympass e Totalpass.
 
---- 
+---  
  
 ## Funcionalidades
 
